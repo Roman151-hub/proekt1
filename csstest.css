@@ -1,12 +1,55 @@
-body{
+    body{
+    background: #0846f07a; /* Цвет фона */
+    color: #0f0f0fdc; /* Цвет текста */
     margin-right: 5%; /* Отступ справа */
     margin-left: 5%; /* Отступ слева */
-    background: #477dbb7a; /* Цвет фона */
-    color: #000000; /* Цвет текста */
     padding: 1px; /* Поля вокруг текста */
     text-align: justify; /* Выравнивание по ширине */ 
-   }
-   p {
+    }
+     h2 {
+        color: #000000;
+        font-size: 30px;
+        font-weight: 100;
+      }
+      h3-h9 {
+      font-size: 20px;
+      font-weight: 50;
+      text-transform: uppercase;
+      }
+      title{
+        font-size: 36px;
+        padding-top: 10px;
+        text-align: center;
+       }
+    header{
+    position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, 
+    в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+     /* Высота шапки */
+    margin: auto;
+    background-color: #c8c7cc; /* Фон шапки */
+    margin-bottom: 25px; /* Нижний отступ шапки от остального контента */
+    border-radius: 2px; /* Закругляются углы блока */
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    width: 250px
+    
+    }
+    section {
+        background: rgb(64, 145, 236);
+        height: 250px;
+        padding: 10px;
+        position: relative; /* Превращает <section> в точку отсчёта */
+        margin-bottom: 5px; /* Нижний отступ  от остального контента */
+        border-radius: 5px; /* Закругляются углы блока */
+        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+          }
+    .p1 {
     font-family: Arial;
     font-size: 17pt;
+    background: rgb(64, 145, 236);
+        height: 250px;
+        padding: 10px;
+        position: relative; /* Превращает <section> в точку отсчёта */
+        margin-bottom: 5px; /* Нижний отступ  от остального контента */
+        border-radius: 5px; /* Закругляются углы блока */
+        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     }
