@@ -1,23 +1,22 @@
     body{
-    background: #0846f07a; /* Цвет фона */
+    background: #b49d9d7a; /* Цвет фона */
     color: #0f0f0fdc; /* Цвет текста */
-    margin-right: 5%; /* Отступ справа */
-    margin-left: 5%; /* Отступ слева */
-    padding: 1px; /* Поля вокруг текста */
+    margin-right: 4%; /* Отступ справа */
+    margin-left: 4%; /* Отступ слева */
+    padding: 20px; /* Поля вокруг текста */
     text-align: justify; /* Выравнивание по ширине */ 
     }
-     h2 {
-        color: #000000;
-        font-size: 30px;
-        font-weight: 100;
-      }
-      h3-h9 {
-      font-size: 20px;
-      font-weight: 50;
-      text-transform: uppercase;
-      }
-      title{
-        font-size: 36px;
+    .ol{
+      text-align: left;
+      font-size: 30px;
+        margin-bottom: 100px; /* Нижний отступ  от остального контента */
+        border-radius: 5px; /* Закругляются углы блока */
+        margin-right: 1; /* Отступ справа */
+        margin-left: 1; /* Отступ слева */
+        background: rgb(92, 163, 230);
+            }
+          title{
+        font-size: 40px;
         padding-top: 10px;
         text-align: center;
        }
@@ -25,31 +24,34 @@
     position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, 
     в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
      /* Высота шапки */
+    text-align: center;
     margin: auto;
-    background-color: #c8c7cc; /* Фон шапки */
-    margin-bottom: 25px; /* Нижний отступ шапки от остального контента */
+    background-color: #91a7ee; /* Фон шапки */
+    margin-bottom: 40px; /* Нижний отступ шапки от остального контента */
     border-radius: 2px; /* Закругляются углы блока */
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
-    width: 250px
-    
+    box-shadow: rgba(0,0,0,0.5) 3px 4px 5px; /* Тень. Визуально приподнимает блок над оболочкой */
+    width: 270px
     }
     section {
-        background: rgb(64, 145, 236);
-        height: 250px;
-        padding: 10px;
-        position: relative; /* Превращает <section> в точку отсчёта */
-        margin-bottom: 5px; /* Нижний отступ  от остального контента */
-        border-radius: 5px; /* Закругляются углы блока */
-        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
-          }
-    .p1 {
-    font-family: Arial;
-    font-size: 17pt;
-    background: rgb(64, 145, 236);
-        height: 250px;
-        padding: 10px;
-        position: relative; /* Превращает <section> в точку отсчёта */
-        margin-bottom: 5px; /* Нижний отступ  от остального контента */
-        border-radius: 5px; /* Закругляются углы блока */
-        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+      text-align: center;
+      line-height: 20px;
+      font-size: 22px;
+    background: rgb(208, 219, 233);
+    padding: 1px;
+    position: relative; /* Превращает <section> в точку отсчёта */
+    margin-bottom: 100px; /* Нижний отступ  от остального контента */
+    border-radius: 5px; /* Закругляются углы блока */
+    margin-right: 10; /* Отступ справа */
+    margin-left: 10; /* Отступ слева */
+    box-shadow: rgba(0,0,0,0.5) 1px 2px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     }
+        footer{
+    background: rgb(243, 243, 243);
+    position: relative; 
+    margin-bottom: 25px; /* Нижний отступ  от остального контента */
+    border-radius: 5px; /* Закругляются углы блока */
+    margin-left: 90%; /* Отступ слева */
+    padding: 40px; /* Поля вокруг текста */
+    height: 110px;
+    width: 120px
+          }
