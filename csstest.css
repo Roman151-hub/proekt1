@@ -1,5 +1,5 @@
     body{
-    background: #b49d9d7a; /* Цвет фона */
+    background: #f5f4f47a; /* Цвет фона */
     color: #0f0f0fdc; /* Цвет текста */
     margin-right: 4%; /* Отступ справа */
     margin-left: 4%; /* Отступ слева */
@@ -26,27 +26,27 @@
      /* Высота шапки */
     text-align: center;
     margin: auto;
-    background-color: #91a7ee; /* Фон шапки */
+    background-color: #94a5db;
     margin-bottom: 40px; /* Нижний отступ шапки от остального контента */
     border-radius: 2px; /* Закругляются углы блока */
     box-shadow: rgba(0,0,0,0.5) 3px 4px 5px; /* Тень. Визуально приподнимает блок над оболочкой */
     width: 270px
     }
-    section {
-      text-align: center;
-      line-height: 20px;
+    .p {
+      text-align: justify;
+      line-height: 25px;
       font-size: 22px;
     background: rgb(208, 219, 233);
-    padding: 1px;
-    position: relative; /* Превращает <section> в точку отсчёта */
+    padding: 32px;
+    position: relative;
     margin-bottom: 100px; /* Нижний отступ  от остального контента */
     border-radius: 5px; /* Закругляются углы блока */
     margin-right: 10; /* Отступ справа */
     margin-left: 10; /* Отступ слева */
-    box-shadow: rgba(0,0,0,0.5) 1px 2px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    box-shadow: rgba(0,0,0,0.5) 3px 5px 4px; /* Тень. Визуально приподнимает блок над оболочкой */
     }
         footer{
-    background: rgb(243, 243, 243);
+    background: rgb(219, 208, 208);
     position: relative; 
     margin-bottom: 25px; /* Нижний отступ  от остального контента */
     border-radius: 5px; /* Закругляются углы блока */
