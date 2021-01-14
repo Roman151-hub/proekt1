@@ -1,18 +1,18 @@
     body{
-    background: #f5f4f47a; /* Цвет фона */
-    color: #0f0f0fdc; /* Цвет текста */
-    margin-right: 4%; /* Отступ справа */
-    margin-left: 4%; /* Отступ слева */
-    padding: 20px; /* Поля вокруг текста */
-    text-align: justify; /* Выравнивание по ширине */ 
+    background: #f5f4f47a;
+    color: #0f0f0fdc;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding: 20px;
+    text-align: justify; 
     }
     .ol{
       text-align: left;
       font-size: 30px;
-        margin-bottom: 100px; /* Нижний отступ  от остального контента */
-        border-radius: 5px; /* Закругляются углы блока */
-        margin-right: 1; /* Отступ справа */
-        margin-left: 1; /* Отступ слева */
+        margin-bottom: 100px;
+        border-radius: 5px;
+        margin-right: 1;
+        margin-left: 1;
         background: rgb(92, 163, 230);
             }
           title{
@@ -21,16 +21,14 @@
         text-align: center;
        }
     header{
-    position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, 
-    в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
-     /* Высота шапки */
+    position:relative; 
     text-align: center;
     margin: auto;
     background-color: #94a5db;
-    margin-bottom: 40px; /* Нижний отступ шапки от остального контента */
-    border-radius: 2px; /* Закругляются углы блока */
-    box-shadow: rgba(0,0,0,0.5) 3px 4px 5px; /* Тень. Визуально приподнимает блок над оболочкой */
-    width: 270px
+    margin-bottom: 40px; 
+    border-radius: 3px; 
+    box-shadow: rgba(0,0,0,0.5) 3px 4px 5px;
+    width: 310px
     }
     .p {
       text-align: justify;
@@ -39,19 +37,19 @@
     background: rgb(208, 219, 233);
     padding: 32px;
     position: relative;
-    margin-bottom: 100px; /* Нижний отступ  от остального контента */
-    border-radius: 5px; /* Закругляются углы блока */
-    margin-right: 10; /* Отступ справа */
-    margin-left: 10; /* Отступ слева */
-    box-shadow: rgba(0,0,0,0.5) 3px 5px 4px; /* Тень. Визуально приподнимает блок над оболочкой */
+    margin-bottom: 100px;
+    border-radius: 5px;
+    margin-right: 10;
+    margin-left: 10;
+    box-shadow: rgba(0,0,0,0.5) 3px 5px 4px;
     }
         footer{
     background: rgb(219, 208, 208);
     position: relative; 
-    margin-bottom: 25px; /* Нижний отступ  от остального контента */
-    border-radius: 5px; /* Закругляются углы блока */
-    margin-left: 90%; /* Отступ слева */
-    padding: 40px; /* Поля вокруг текста */
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin-left: 90%;
+    padding: 40px;
     height: 110px;
     width: 120px
           }
